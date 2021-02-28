@@ -1,0 +1,84 @@
+body{
+  background: url("background.jpg") no-repeat;
+  background-size: cover;
+  font-family: 'Questrial', sans-serif;
+  font-size: 11px;
+  color: white;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  min-width: 400px;
+}
+
+.subcontainer{
+  padding: 10%;
+}
+
+header img{
+  width: 25%;
+  display: block;
+  margin: auto;
+  min-width: 100px;
+}
+
+header div{
+  color: RGB(0, 221, 0);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav{
+  background-color: RGB(0, 221, 0);
+  margin: auto;
+  margin-top: 5px;
+  padding: 7px;
+  text-align: center;
+}
+
+button{
+  font-size: 80%;
+}
+
+.dispositivo{
+  margin-top: 20px;
+}
+
+main div{
+  margin-top: 5px;
+}
+
+input[type=checkbox]{
+    transform: scale(0.65);
+}
+
+.dispositivo span{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.barra{
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+#gino22{
+  width: 35%;
+  background-color: RGB(245, 180, 83);
+}
+
+#mike24{
+  width: 60%;
+  background-color: RGB(30,195,30);
+}
+
+#fede154{
+  width: 15%;
+  background-color: RGB(190, 65, 65);
+}

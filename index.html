@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scooter Lim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- contenitore principale  -->
+    <div class="container">
+      <!-- contenitore elementi  -->
+      <div class="subcontainer">
+        <!-- intestazione pagina con logo e slogan -->
+        <header>
+          <img src="logo.png">
+          <div>Taking Booleaners from A to B</div>
+        </header>
+
+        <!-- navigatore con bottoni per effettuare le operazioni -->
+        <nav>
+          <button type="button">Prenota</button>
+          <button type="button">Termina Prenotazione</button>
+          <button type="button">Accendi Luci</button>
+        </nav>
+
+        <!-- elenco dispositivi con info nome, posizione e stato carica  -->
+        <main>
+          <div class="dispositivo">
+            <input type="checkbox">
+            <span>Monopattino Gino22</span>
+            <div>↦ Via Guadalametri - a 220 metri da te</div>
+            <div>Stato Carica:
+              <div id="gino22" class="barra"></div>
+            </div>
+          </div>
+
+          <div class="dispositivo">
+            <input type="checkbox">
+            <span>Monopattino Mike24</span>
+            <div>↦ Via Ricciardoni - a 420 metri da te</div>
+            <div>Stato Carica:
+              <div id="mike24" class="barra"></div>
+            </div>
+          </div>
+
+          <div class="dispositivo">
+            <input type="checkbox">
+            <span>Monopattino Fede154</span>
+            <div>↦ Via Mentarini - a 490 metri da te</div>
+            <div>Stato Carica:
+              <div id="fede154" class="barra"></div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
